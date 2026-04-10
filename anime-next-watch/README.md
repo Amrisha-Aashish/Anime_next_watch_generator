@@ -1,16 +1,121 @@
-# React + Vite
+# 🎬 Anime Next Watch Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and aesthetic web application that helps users discover what anime to watch next.
+Built with a **dark neon UI**, this app fetches real-time anime data and provides powerful filtering options.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 (Add your deployed Vercel link here)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(Add screenshots of your UI here)
+
+---
+
+## ✨ Features
+
+* 🔥 **Trending Anime** – Explore top trending anime instantly
+* 🔍 **Search Functionality** – Find anime by name in real-time
+* 🎭 **Genre Filter** – Filter anime based on genres
+* ⭐ **Top Rated Filter** – View highest-rated anime
+* 📖 **Expandable Synopsis** – Read detailed descriptions
+* 🔄 **Reset Button** – Quickly go back to trending anime
+* 🌙 **Dark Neon UI** – Modern, aesthetic and responsive design
+
+---
+
+## 🛠 Tech Stack
+
+* ⚛️ React (Vite)
+* 💻 JavaScript (ES6+)
+* 🎨 CSS (Custom Neon Styling)
+* 🌐 Jikan API
+
+---
+
+## 🔌 API Used
+
+* 📡 https://docs.api.jikan.moe
+
+---
+
+## 📂 Project Structure
+
+```
+anime-next-watch/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── AnimeCard.jsx
+│   │   ├── Filters.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+├── index.html
+├── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/Amrisha-Aashish/Anime_next_watch_generator.git
+```
+
+Navigate to project folder:
+
+```
+cd anime-next-watch
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 💡 Future Improvements
+
+* ❤️ Add Favorites system (localStorage)
+* 📄 Pagination for large datasets
+* ⚡ Debounced search for better performance
+* 🎥 Anime trailer integration (YouTube)
+* 🤖 AI-based anime recommendations
+
+---
+
+## 🙌 Acknowledgements
+
+* Thanks to **Jikan API** for providing anime data
+* Inspired by modern streaming platforms like Netflix
+
+---
+
+## 📌 Author
+
+👤 Amrisha Aashish
+🔗 GitHub: https://github.com/Amrisha-Aashish
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+
