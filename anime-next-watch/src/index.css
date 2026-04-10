@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0f1a;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Neon glow utility */
+.neon-text {
+  color: #00f7ff;
+  text-shadow: 0 0 5px #00f7ff, 0 0 20px #00f7ff;
+}
+
+.neon-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 247, 255, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+}
+
+.neon-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #00f7ff;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00f7ff;
+  border-radius: 10px;
+}
+
+/* Heading glow */
+h2 {
+  margin-top: 20px;
+  color: #fff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+/* Input focus glow */
+input:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 10px #00f7ff;
+}
