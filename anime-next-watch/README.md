@@ -7,7 +7,7 @@ Built with a **dark neon UI**, this app fetches real-time anime data and provide
 
 ## 🚀 Live Demo
 
-👉 (Add your deployed Vercel link here)
+anime-next-watch-generator-4tza-am3y9dx7r.vercel.app
 
 ---
 
